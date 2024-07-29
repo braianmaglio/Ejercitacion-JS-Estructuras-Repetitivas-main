@@ -10,6 +10,4 @@ while (fibonacci.length < 100) {
     fibonacci.push(suma);
 }
 
-let listado = fibonacci.toString();
-
-console.log(listado);
+console.table(fibonacci);
